@@ -47,3 +47,27 @@ app.get('/', async function (req, res) {
     //   counter
     })
   })
+  app.get('/eggs', async function (req, res) {
+    // const counter = await greet.nameCounter()
+    res.render("eggs", {
+    //   counter
+    })
+  })
+  app.get('/bread', async function (req, res) {
+    // const counter = await greet.nameCounter()
+    res.render("bread", {
+    //   counter
+    })
+  })
+  app.get('/butter', async function (req, res) {
+    // const counter = await greet.nameCounter()
+    res.render("butter", {
+    //   counter
+    })
+  })
+  app.get('/cheese', async function (req, res) {
+    // const counter = await greet.nameCounter()
+    res.render("cheese", {
+    //   counter
+    })
+  })
