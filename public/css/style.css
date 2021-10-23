@@ -1,0 +1,11 @@
+/* .nav-link{
+   color: white;
+} */
+.nav-link:hover{
+    color: white;
+    background-color: black;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
