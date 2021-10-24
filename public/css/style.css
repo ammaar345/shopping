@@ -2,10 +2,18 @@
    color: white;
 } */
 .nav-link:hover{
-    color: white;
-    background-color: black;
+    color: red;
+    background-color: brown;
 }
-a, a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
+a:hover{
+background-color: purple!important;
+color: red!important;
+
 }
+.nav-item:hover{
+
+    background-color: red!important;
+    color: seagreen!important;
+}
+ .nav-pills:hover{color: red!important;
+background-color: white !important;}
